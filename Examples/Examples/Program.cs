@@ -10,10 +10,13 @@ namespace Examples
     {
         static void Main(string[] args)
         {
-            //Andrei's txt created
-            //Cristi's txt created 
-            // Denisa txt
-            //Andrei2 test 
+            ProjectEuler14 x = new ProjectEuler14();
+            x.swoop(1000001);
+            x.findIndexHighestCount();
+            ProjectEuler14BruteForce v = new ProjectEuler14BruteForce();
+            //v.swoop(1000001);
+            //v.findIndexHighestCount();
+            Console.ReadLine();
         }
     }
 }

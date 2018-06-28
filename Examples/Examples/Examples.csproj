@@ -45,16 +45,12 @@
   <ItemGroup>
     <Compile Include="ProblemCurs6.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectEuler14.cs" />
+    <Compile Include="ProjectEuler14BruteForce.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Andrei2.txt" />
-    <Content Include="TextFile1.txt" />
-    <Content Include="TextFile2.txt" />
-    <Content Include="TextFileD1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
