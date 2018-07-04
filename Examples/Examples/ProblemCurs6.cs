@@ -40,5 +40,9 @@ namespace Examples
         {
             return ((n % 2 == 0) ? n / 2 : 3 * n + 1);
         }
+        public override string ToString()
+        {
+            return base.ToString() + " by Andrei the great!";
+        }
     }
 }

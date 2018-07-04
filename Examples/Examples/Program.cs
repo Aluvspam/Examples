@@ -14,6 +14,9 @@ namespace Examples
             //Cristi's txt created 
             // Denisa txt
             //Andrei2 test 
+            var v = new ProblemCurs6();
+            Console.WriteLine(v.ToString());
+            Console.ReadLine();
         }
     }
 }
