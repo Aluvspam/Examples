@@ -9,32 +9,32 @@ namespace Examples
     class ProjectEuler14
     {
         public List<int> countlist;
-        
+        bool checkList(int x, int m)
+        {
+            if (m < countlist.Count())
+            {
+                x += countlist[m];
+                return true;
+            }
+
+            return false;
+        }
         public int count(int nm)
         {
             long n = nm;
             int x = 0;
 
-            bool checkList( int m)
-            {
-                if (m < countlist.Count())
-                {
-                    x += countlist[m];
-                    return true;
-                }
-                    
-                return false;             
-            }
 
-            while (!checkList((int)n))
+
+            while (!checkList(x, (int)n))
             {
-                if (n%2==0)
+                if (n % 2 == 0)
                 {
                     n = n / 2;
                 }
                 else
                 {
-                    n = 3*n + 1;
+                    n = 3 * n + 1;
                 }
                 x++;
             }
