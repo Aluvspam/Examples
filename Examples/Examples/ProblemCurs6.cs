@@ -18,7 +18,7 @@ Which starting number, under one million, produces the longest chain?
 NOTE: Once the chain starts the terms are allowed to go above one million.*/
 namespace Examples
 {
-    class ProblemCurs6
+    public class ProblemCurs6
     {
         void Run()
         {
@@ -36,7 +36,7 @@ namespace Examples
 
             }
         }
-        int nextInSequence(int n)
+        public int nextInSequence(int n)
         {
             return ((n % 2 == 0) ? n / 2 : 3 * n + 1);
         }
