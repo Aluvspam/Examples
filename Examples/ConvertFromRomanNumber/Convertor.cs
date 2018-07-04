@@ -14,11 +14,11 @@ namespace ConvertFromRomanNumber
             var crtPath = Directory.GetCurrentDirectory();
             Console.WriteLine(crtPath);
             var c = new Convertor();
-            var v = c.directConvert("MMMDCCCLXXXVIII");
+            var v = c.directConvert("MMMDCCCLXXXVIII");//3888
             Console.WriteLine(v);
-            Console.WriteLine(c.directConvert("MCMXCIV"));
-            Console.WriteLine(c.directConvert("MMXVIII"));
-            Console.WriteLine(c.directConvert("DCXXXIX"));
+            Console.WriteLine(c.directConvert("MCMXCIV"));//1994
+            Console.WriteLine(c.directConvert("MMXVIII"));//2018
+            Console.WriteLine(c.directConvert("DCXXXIX"));//639
             Console.ReadLine();
         }
 
