@@ -10,7 +10,11 @@ namespace MostenireCompozitie
     {
         ClasaDeBaza x = new ClasaDeBaza();
 
-        public int i = x.i ;
+
+        public  void showi()
+        {
+            x.showi();
+        }
 
 
 
