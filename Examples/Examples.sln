@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{6110FEB5-9655-432D-81DC-727E20669149}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertFromRomanNumber", "ConvertFromRomanNumber\ConvertFromRomanNumber.csproj", "{D39001F2-CF53-4C1A-AEFE-A8089C7989A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToRomanNumber", "ConvertToRomanNumber\ConvertToRomanNumber.csproj", "{E0BD6931-223B-43CC-BE18-59656D1BB31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostenireCompozitie", "MostenireCompozitie\MostenireCompozitie.csproj", "{62387C3C-D669-46AA-AD63-A1A1F2E8FDA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{E0BD6931-223B-43CC-BE18-59656D1BB31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0BD6931-223B-43CC-BE18-59656D1BB31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0BD6931-223B-43CC-BE18-59656D1BB31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62387C3C-D669-46AA-AD63-A1A1F2E8FDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62387C3C-D669-46AA-AD63-A1A1F2E8FDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62387C3C-D669-46AA-AD63-A1A1F2E8FDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62387C3C-D669-46AA-AD63-A1A1F2E8FDA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BA45424-8E5D-420E-99FD-3DE40DA33C41}
 	EndGlobalSection
 EndGlobal
