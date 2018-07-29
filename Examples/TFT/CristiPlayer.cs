@@ -24,7 +24,7 @@ namespace TFT
 
         public Moves FirstMove()
         {
-            return Random.Move();
+            return RandomMove();
         }
 
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
@@ -33,15 +33,18 @@ namespace TFT
             {
                 return Moves.C;
             }
-            else if(othersLastMove == Moves.C)
+            else if (othersLastMove == Moves.C)
             {
                 return Moves.D;
             }
-            else if(othersLastMove == Moves.D)
+            else if (othersLastMove == Moves.D)
             {
                 return Moves.D;
             }
-           // return RandomMove();
+            else
+            {
+                return RandomMove();
+            }
         }
 
         private Moves RandomMove()
