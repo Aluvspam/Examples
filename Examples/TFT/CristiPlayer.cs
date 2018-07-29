@@ -29,7 +29,19 @@ namespace TFT
 
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
-            return RandomMove();
+            if (othersLastMove == Moves.B)
+            {
+                return Moves.C;
+            }
+            else if(othersLastMove == Moves.C)
+            {
+                return Moves.D;
+            }
+            else if(othersLastMove == Moves.D)
+            {
+                return Moves.D;
+            }
+           // return RandomMove();
         }
 
         private Moves RandomMove()
