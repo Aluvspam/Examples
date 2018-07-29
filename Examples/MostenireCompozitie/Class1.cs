@@ -24,7 +24,7 @@ namespace MostenireCompozitie
             Console.WriteLine(" Test c Mostenire ");
 
             ClasaDerivataCompozitie c = new ClasaDerivataCompozitie();
-            c.x.showi();
+            c.showi();
 
             Console.WriteLine(" Test c Compozitie ");
         }
