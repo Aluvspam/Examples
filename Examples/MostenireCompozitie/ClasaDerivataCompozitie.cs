@@ -8,7 +8,13 @@ namespace MostenireCompozitie
 {
     class ClasaDerivataCompozitie
     {
-        public ClasaDeBaza x = new ClasaDeBaza();
+        ClasaDeBaza x = new ClasaDeBaza();
+
+        public  void showi()
+        {
+            x.showi();
+        }
+
 
 
     }
