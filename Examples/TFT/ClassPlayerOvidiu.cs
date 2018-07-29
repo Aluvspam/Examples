@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    class ClassPlayerOvidiu : IPlayer, Iscore
+    class ClassPlayerOvidiu : IPlayer, IScore
     {
+        public int Score => throw new NotImplementedException();
+
         public Moves FirstMove()
         {
-            return RandomMove()
+            return Moves.D;
         }
+
+
 
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
-            return RandomMove();
+            if (othersLastMove == Moves.D)
+                return Moves.D;
+            return Moves.C;
 
         }
     }
 
-    internal interface Iscore
-    {
-    }
+
 }
