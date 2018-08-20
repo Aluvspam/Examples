@@ -10,6 +10,9 @@ namespace Examples
     {
         static void Main(string[] args)
         {
+            new NoStrategy.World();
+            var w = new Solid_Examples.AndreiR.World();
+            Console.ReadLine();
             //Andrei's txt created
             //Cristi's txt created 
             // Denisa txt

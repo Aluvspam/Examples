@@ -8,7 +8,11 @@ namespace TFT
 {
     class ClassPlayerOvidiu : IPlayer, IScore
     {
-        public int Score => throw new NotImplementedException();
+        public int Score
+        {
+            get
+            { return 0; }
+        }
 
         public Moves FirstMove()
         {
